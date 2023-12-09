@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class assdss
+{
+public class void main(String[] args)
+{
+    int 5
+    String names[]={"uday","krishna","kiran","pavan","naveen"};
+    arrays.sort(names);
+    system.out.print("ass order is"\n);
+    for(i=0;i<n;i++)
+    system.out.print(name[i]);
+}
+}
