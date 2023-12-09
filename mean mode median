@@ -1,0 +1,28 @@
+import java.io.*;
+
+	public static double factorial(int i)
+	{
+		// Step1: Base case
+		if (i == 1) {
+			return 1;
+		}
+		// Step2&3: Recursion execution & call statements
+		return i * factorialpublic static double calculateSum(int N)
+	{
+		double sum = 0;
+		for (int i = 1; i <= N; i++) {
+			sum = sum + ((double)i / factorial(i));
+		}
+		return sum;
+	}
+	public static void main(String[] args)
+	{
+		/* No of terms in series
+		taken inn order to show output */
+		int N = 5;
+
+		System.out.println("The sum of series upto " + N
+						+ " terms is : "
+						+ calculateSum(N));
+	}
+}
